@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Amarillas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #FFD700; /* Color dorado */
+        }
+        img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Flores Amarillas</h1>
+    <p>¡Las flores amarillas son símbolo de alegría y amistad! Aquí te mostramos algunas de las más hermosas.</p>
+    
+    <div class="gallery">
+        <img src="https://example.com/flores1.jpg" alt="Flor Amarilla 1">
+        <img src="https://example.com/flores2.jpg" alt="Flor Amarilla 2">
+        <img src="https://example.com/flores3.jpg" alt="Flor Amarilla 3">
+    </div>
+
+</body>
+</html>
